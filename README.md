@@ -1,2 +1,2 @@
 # dev-week-santander
-Projeto criado para a dev week do Santander em parceria com a DIO.
+Projeto de uma REST API em java, criado para a dev week do Santander em parceria com a DIO.
