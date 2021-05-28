@@ -1,18 +1,18 @@
 server:
   port: 8080
   servlet:
-    context-path:
+    context-path: /bootcamp
 
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 123456
+    url: postgres://gzbzrsbygfbrgv:4d1a524007f79c1e77e664a14ed36d8c35194295500d5d72391a508f9b371b34@ec2-34-230-115-172.compute-1.amazonaws.com:5432/d68kmsj119e9fg
+    username: gzbzrsbygfbrgv
+    password: 4d1a524007f79c1e77e664a14ed36d8c35194295500d5d72391a508f9b371b34
   jpa:
     show:-sql: true
     database-plataform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false
+    generate-ddl: true
     hibernate:
       ddl-auto: none
 
